@@ -36,8 +36,6 @@
         items: [
           { image: require("@/assets/image1.jpg"), alt: "Slide 1" },
           { image: require("@/assets/image1.jpg"), alt: "Slide 1" },
-          { image: require("@/assets/image2.jpg"), alt: "Slide 2" },
-          { image: require("@/assets/image2.jpg"), alt: "Slide 2" },
           { image: require("@/assets/image3.jpg"), alt: "Slide 3" },
           { image: require("@/assets/image3.jpg"), alt: "Slide 3" }
         ],

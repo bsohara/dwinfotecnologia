@@ -86,7 +86,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 30px;
-    background-color: #343434;
+    background-color: #151515;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
