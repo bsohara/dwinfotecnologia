@@ -7,7 +7,7 @@
           v-for="(item, index) in items"
           :key="index"
         >
-          <img :src="item.image" :alt="item.alt" />
+          <img :src="item.image" :alt="item.alt"/>
         </div>
       </div>
   
@@ -34,12 +34,12 @@
       return {
         currentIndex: 0, // Índice atual
         items: [
-          { image: "@/assets/image1.jpg", alt: "Slide 1" },
-          { image: "@/assets/image1.jpg", alt: "Slide 1" },
-          { image: "@/assets/image2.jpg", alt: "Slide 2" },
-          { image: "@/assets/image2.jpg", alt: "Slide 2" },
-          { image: "@/assets/image3.jpg", alt: "Slide 3" },
-          { image: "@/assets/image3.jpg", alt: "Slide 3" }
+          { image: require("@/assets/image1.jpg"), alt: "Slide 1" },
+          { image: require("@/assets/image1.jpg"), alt: "Slide 1" },
+          { image: require("@/assets/image2.jpg"), alt: "Slide 2" },
+          { image: require("@/assets/image2.jpg"), alt: "Slide 2" },
+          { image: require("@/assets/image3.jpg"), alt: "Slide 3" },
+          { image: require("@/assets/image3.jpg"), alt: "Slide 3" }
         ],
       };
     },
@@ -62,10 +62,9 @@
   .carousel {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     overflow: hidden;
-    border-radius: 8px;
   }
   
   /* Contêiner dos slides */

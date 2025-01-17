@@ -88,7 +88,6 @@
     padding: 10px 30px;
     background-color: #343434;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 50px;
   }
   
   .logo img {
