@@ -34,9 +34,12 @@
       return {
         currentIndex: 0, // Índice atual
         items: [
-          { image: "", alt: "Slide 1" },
-          { image: "", alt: "Slide 2" },
-          { image: "", alt: "Slide 3" },
+          { image: "@/assets/image1.jpg", alt: "Slide 1" },
+          { image: "@/assets/image1.jpg", alt: "Slide 1" },
+          { image: "@/assets/image2.jpg", alt: "Slide 2" },
+          { image: "@/assets/image2.jpg", alt: "Slide 2" },
+          { image: "@/assets/image3.jpg", alt: "Slide 3" },
+          { image: "@/assets/image3.jpg", alt: "Slide 3" }
         ],
       };
     },
@@ -62,7 +65,6 @@
     max-width: 800px;
     margin: 0 auto;
     overflow: hidden;
-    border: 1px solid #ddd;
     border-radius: 8px;
   }
   
