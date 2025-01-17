@@ -1,26 +1,40 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <Header />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from "./components/Header.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    Header
   }
-}
+};
 </script>
 
 <style>
+/* Estilize o fundo do aplicativo inteiro */
+html, body {
+  height: 100%; /* Garante que ocupem toda a altura da tela */
+  margin: 0; /* Remove qualquer margem */
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  background-color: #161616; /* Cor de fundo */
+  background-size: cover; /* Faz a imagem ocupar todo o espaço */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Impede que a imagem se repita */
+  height: 100vh; /* Garante que o fundo cubra toda a altura da tela */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  flex: 1; /* Faz com que o conteúdo ocupe o restante da altura */
+  padding: 20px;
 }
 </style>
