@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <Header />
+    <Carousel />
   </div>
 </template>
 
 <script>
 import Header from "./components/Header.vue";
+import Carousel from "./components/Carousel.vue"
 
 export default {
   name: "App",
   components: {
-    Header
+    Header,
+    Carousel
   }
 };
 </script>
