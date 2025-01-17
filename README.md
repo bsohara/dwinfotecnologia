@@ -11,3 +11,4 @@
 - Aplicar, também, conhecimentos de backend, com utilização de um framework/bibioteca em específico para construção lógica do site
 
 ## SITE JÁ MODIFICADO COM VUE.JS
+- em breve...
