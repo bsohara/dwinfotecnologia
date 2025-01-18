@@ -1,15 +1,25 @@
 <template>
   <div>
-    <!-- Your content goes here -->
+    <DWInfoHeader />
   </div>
 </template>
 
 <script>
+import DWInfoHeader from './components/Header.vue'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    DWInfoHeader
+  }
 }
 </script>
 
 <style>
-/* Your styles go here */
+  html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 </style>
